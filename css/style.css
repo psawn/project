@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #343132;
+}
+.logo img{
+    padding-left: 70px;
+}
+.header {
+    padding: 30px;
+    height: 100px;
+    background-color: #ffffff;
+}
+.header .menu {
+    padding-top: 5px;
+    padding-bottom: 80px;
+}
+.header ul {
+    float: left;
+    margin-left: -41px;
+}
+.header ul li {
+    float: left;
+    margin-left: 40px;
+    list-style: none;
+}
+.header ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 900;
+}
+.header ul li a.text-animation {
+    position: relative;
+}
+.header ul li a.text-animation div {
+    position: absolute;
+    bottom: 1;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: #529f11;
+    transition: 0.3s;
+}
+.header ul li a.text-animation:hover div {
+    width: 100%;
+}
+.banner img{
+    margin-top: -40px;
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+}
+.banner h1, .banner  a{
+    margin-top: -200px;
+    text-align: center;
+    color: white;
+}
+.item{
+    margin-top: 210px;
+}
+.item p{
+    line-height: 23px;
+    text-align: center;
+    margin-top: 13px;
+    font-size: 15px;
+}
+.carousel-inner img{
+    margin-top: -250px;
+}
+.other{
+    margin-bottom: 100px;
+}
+.other1{
+    margin-top: 50px;
+}
+.sr-only{
+    overflow: hidden;
+}
+.container .col-sm-4{
+    padding-left: 20px;
+}
+.h3, h3 {
+    font-size: 24px;
+    text-align: center;
+}
+.h4, h4 {
+    font-size: 18px;
+    padding-top: 50px;
+}
+.h1, h1{
+    text-align: center;
+}
+.container h2{
+    text-align: center;
+    padding-top: 96px;
+    padding-bottom: 30px;
+}
+.col-sm-3 h2{
+    padding-top: 30px;
+    color: #519f10;
+}
+.col-sm-3 h2{
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 0.2px;
+    margin: 0 0 10px;
+    padding: 0 0 15px;
+    position: relative;
+    font-family: inherit;
+}
+.info_2{
+    margin-top: 110px;
+    padding-top: 90px;
+    background-color: rgba(211, 211, 211, 0.5);
+    width: 100%;
+    height: 300px;
+    text-align: center
+}
+.info_1{
+    padding-top: 120px;
+}
+.info_3{
+    padding-top: 30px;
+}
+.info_3 h4{
+    font-family: "Playfair Display",serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+    margin: 0;
+}
+.info_3 a{
+    text-decoration: none;
+}
+.row{
+    margin-right: -15px;
+    margin-top: 138px;
+    padding-left: 215px;
+    background-color: rgba(211, 211, 211, 0.5);
+}
+.footer {
+    float: left;
+    background-color: #f6f6f6;
+    width: 100%;
+    margin-top: 50px;
+    font-family: Lora, serif;
+}
+.small_footer {
+    width: 23.5%;
+    padding-left: 98px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 40px;
+    font-family: "Playfair Display",serif;
+}
+.small_footer div {
+    font-size: 26px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.small_footer ul li {
+    list-style: none;
+    line-height: 1.5;
+    padding-bottom: 15px;
+    font-size: 16px;
+}
+.small_footer ul li  a{
+    text-decoration: none;
+    color: black;
+}
+.social_network i {
+    font-size: 15px;
+    background: #000000;
+    color: #ffffff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+
