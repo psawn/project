@@ -1,0 +1,15 @@
+.mau {
+    color: red;
+    animation: magic 2s;
+    margin-left: 100px;
+}
+@keyframes magic {
+    from {
+        opacity: 0;
+        margin-left: 0;
+    }
+    to {
+        opacity: 1;
+        margin-left: 100px;
+    }
+}

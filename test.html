@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/test.css">
+</head>
+<body>
+    <ul>
+        <li><a href="#" onclick="changeColor()">A</a></li>
+        <li><a href="#" onclick="removeColor()">B</a></li>
+        <li><a href="#" onclick="removeColor()">C</a></li>
+    </ul>
+    <div id="drop">
+        DROP
+    </div>
+</body>
+<script type="text/javascript">
+    function changeColor() {
+        document.getElementById("drop").classList.add("mau");
+    }
+    function removeColor() {
+        document.getElementById("drop").classList.remove("mau");
+    }
+</script>
+</html>
